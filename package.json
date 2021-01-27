@@ -1,0 +1,51 @@
+{
+  "name": "top-interview-questions-easy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/** --quiet --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhan-huang/Top-Interview-Questions-Easy.git"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.3",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "1.18.2"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhan-huang/Top-Interview-Questions-Easy/issues"
+  },
+  "homepage": "https://github.com/zhan-huang/Top-Interview-Questions-Easy#readme",
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "commonjs": true,
+      "es6": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:prettier/recommended"
+    ],
+    "globals": {
+      "Atomics": "readonly",
+      "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+      "ecmaVersion": 2018,
+      "sourceType": "module"
+    },
+    "plugins": [
+      "prettier"
+    ]
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}
