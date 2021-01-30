@@ -12,5 +12,4 @@ const moveZeroes = function(nums) {
       size--;
     }
   }
-  return nums;
 };
