@@ -9,7 +9,7 @@ const longestCommonPrefix = function(strs) {
   if (shortestStr) {
     let same = true;
     for (let i = 0; i < shortestStr.length; i++) {
-      var c = shortestStr[i];
+      const c = shortestStr[i];
       for (let j = 0; j < sortedStrs.length; j++) {
         const str = sortedStrs[j];
         if (str[i] !== c) {
